@@ -49,6 +49,24 @@ and change
 
     $ sudo update-alternatives --config x-session-manager
     
+### Istall tray for Xmonad
+```
+    $ sudo aptitude install trayer
+```
+
+### Configuring Xmonad
+Create and edit file:
+```
+    ~/.xmonad/xmonad.hs
+```    
+
+### Recompile Xmonad
+```
+    $ cd ~/.xmonad
+    $ xmonad --recompile
+```
+
+
 ### Default keyboard bindings
 
 `mod-shift-return` - Launch terminal
