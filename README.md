@@ -28,7 +28,9 @@ _Typically you need:_ `libXinerama, libXext, libX11`
     $ cabal install xmonad-contrib
     $ cabal install xmobar --flags="with_utf8" --flags="with_xft"
 ```
+
 ### Add `xmonad.desktop` in the `/usr/share/xsessions` directory
+
 
 ### Making xmonad your default window manager
 
