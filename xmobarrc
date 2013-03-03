@@ -1,0 +1,16 @@
+Config { font = "xft:Liberation Mono-10:regular"
+       , bgColor = "black"
+       , fgColor = "grey"
+       , position = Static { xpos = 0 , ypos = 0, width = 1127, height = 20 }
+       , commands = [ Run Cpu ["-t","<total>","-L","3","-H","50","--normal","lightgreen","--high","red"] 10
+                    , Run Memory ["-t","<usedratio>"] 30
+                    , Run Swap ["-t","<usedratio>"] 50
+                    , Run Date "%a %b %_d %H:%M" "date" 10
+                    , Run Com "~/.xmonad/nvidia.sh" [] "nvt" 100
+                    , Run Com "~/.xmonad/cpu.sh" [] "cpt" 30
+                    , Run StdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%StdinReader% }{ %cpu%<fc=lightgreen>:</fc>%cpt%  %memory%<fc=lightgreen>:</fc>%swap%  %nvt%  <fc=#ee9a00>%date%</fc>"
+       }
