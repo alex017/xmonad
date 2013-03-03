@@ -49,7 +49,7 @@ and change
 
     $ sudo update-alternatives --config x-session-manager
     
-### Istall tray for Xmonad
+### Install tray for Xmonad
 ```
     $ sudo aptitude install trayer
 ```
