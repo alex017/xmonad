@@ -51,19 +51,19 @@ and change
     
 ### Install tray for Xmonad
 ```
-    $ sudo aptitude install trayer
+$ sudo aptitude install trayer
 ```
 
 ### Configuring Xmonad
 Create and edit file:
 ```
-    ~/.xmonad/xmonad.hs
+~/.xmonad/xmonad.hs
 ```    
 
 ### Recompile Xmonad
 ```
-    $ cd ~/.xmonad
-    $ xmonad --recompile
+$ cd ~/.xmonad
+$ xmonad --recompile
 ```
 
 
