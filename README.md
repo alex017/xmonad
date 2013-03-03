@@ -21,6 +21,7 @@ _Typically you need:_ `libXinerama, libXext, libX11`
 ```
     export PATH="$HOME/.cabal/bin:$PATH"
 ```
+
 ### Now we install xmonad
 ```
     $ cabal update
