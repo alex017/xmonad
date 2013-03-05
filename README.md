@@ -62,7 +62,6 @@ Create and edit file:
 
 ### Recompile Xmonad
 ```
-$ cd ~/.xmonad
 $ xmonad --recompile
 ```
 
